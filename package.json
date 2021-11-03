@@ -1,0 +1,23 @@
+{
+  "name": "taskstindin",
+  "version": "1.0.0",
+  "description": "Uma API de cadastro de tarefas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robertosousa86/api-tarefas-tindin.git"
+  },
+  "keywords": [
+    "API",
+    "TINDIN"
+  ],
+  "author": "Roberto Sousa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robertosousa86/api-tarefas-tindin/issues"
+  },
+  "homepage": "https://github.com/Robertosousa86/api-tarefas-tindin#readme"
+}
