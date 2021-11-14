@@ -3,6 +3,9 @@ import {
   disconnect as dbDisconnect,
   connection,
 } from 'mongoose';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
 
 const connect = async () => {
   if (!process.env.DATABASE_URL)
