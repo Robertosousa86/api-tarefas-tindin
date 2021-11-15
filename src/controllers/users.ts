@@ -16,4 +16,13 @@ const create = async (req: Request<any>, res: Response<any>) => {
   }
 };
 
-export { create };
+const list = async (req: Request<any>, res: Response<any>) => {
+  try {
+    const users = await user.list();
+    return res.json(users);
+  } catch (err: any) {
+    return error(res, err);
+  }
+};
+
+export { create, list };

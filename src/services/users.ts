@@ -14,4 +14,10 @@ const create = async (user: IUsers) => {
   return true;
 };
 
-export { create };
+const list = async () => {
+  await connect();
+  const result = await User.find();
+  return result;
+};
+
+export { create, list };
