@@ -12,5 +12,6 @@ server.get('/', (request, response) => {
 });
 
 server.post('/users', user.create);
+server.get('/users', user.list);
 
 export default server;
